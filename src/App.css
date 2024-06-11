@@ -5,7 +5,9 @@ body{
 background: linear-gradient(354deg, rgba(187,132,55,0.35066526610644255) 0%, rgba(224,117,94,1) 0%, rgba(23,23,114,0.8184523809523809) 42%, rgba(20,157,185,1) 99%);
 
 }
-
+.table-responsive,tbody {
+  overflow-x: auto;
+}
 .table {
   width: 100%;
   table-layout: fixed;
@@ -15,6 +17,13 @@ background: linear-gradient(354deg, rgba(187,132,55,0.35066526610644255) 0%, rgb
 .table th, .table td {
   text-align: center;
   vertical-align: middle;
+}
+/* small screen*/
+
+@media only screen and (max-width: 576px) {
+  th,tbody {
+    font-size: 10px;
+  }
 }
 
 
