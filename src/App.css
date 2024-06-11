@@ -1,38 +1,20 @@
-.App {
+body{
+  font-family: "Montserrat", sans-serif;
+  background: rgb(187,132,55);
+  background: rgb(187,132,55);
+background: linear-gradient(354deg, rgba(187,132,55,0.35066526610644255) 0%, rgba(224,117,94,1) 0%, rgba(23,23,114,0.8184523809523809) 42%, rgba(20,157,185,1) 99%);
+
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+
+}
+
+.table th, .table td {
   text-align: center;
+  vertical-align: middle;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
